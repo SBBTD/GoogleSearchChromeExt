@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Google搜索",
+	"version": "1.0.0",
+	"description": "__MSG_pluginDesc__",
+	"icons":
+	{
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"background":
+	{
+		"scripts": ["background.js"]
+	},
+	"omnibox": { "keyword" : "g" },
+	"default_locale": "zh_CN"
+}
